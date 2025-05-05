@@ -7,7 +7,7 @@ name = "dppo"
 version = "0.8.0"
 description = "Fine-tuning diffusion policies with PPO."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
@@ -21,9 +21,9 @@ dependencies = [
     "matplotlib==3.7.5",
     "omegaconf==2.3.0",
     "pretty_errors==1.2.25",
-    "torch==2.4.0",
+    "torch==2.7.0",
     "tqdm==4.66.5",
-    "wandb==0.17.7"
+    "wandb==0.19.10"
 ]
 
 [project.optional-dependencies]
